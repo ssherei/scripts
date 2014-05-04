@@ -31,6 +31,7 @@ import time
 # i will be able to gain access and execute commands even if authentication fails same as the changes that was made by kingcope in the OpenSSH source file which exits immediatley after authentication functions are called.
 
 # the prequisited of this script is to have paramiko module available also the user used in the exploit needs to be already in freeSSHD no password is needed
+# this PoC will open internet Explorer but any command can be executed in the context of cmd.exe
 
 # create Socket for transport 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
